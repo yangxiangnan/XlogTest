@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEE1AC451E48222A00432783 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE1AC441E48222A00432783 /* main.m */; };
-		CEE1AC481E48222A00432783 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE1AC471E48222A00432783 /* AppDelegate.m */; };
+		CE8676961E4827CC004CD7C3 /* log_crypt.cc in Sources */ = {isa = PBXBuildFile; fileRef = CEE1AC811E48256E00432783 /* log_crypt.cc */; };
+		CEE1AC451E48222A00432783 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = CEE1AC441E48222A00432783 /* main.mm */; };
+		CEE1AC481E48222A00432783 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = CEE1AC471E48222A00432783 /* AppDelegate.mm */; };
 		CEE1AC4B1E48222A00432783 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE1AC4A1E48222A00432783 /* ViewController.m */; };
 		CEE1AC4E1E48222A00432783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE1AC4C1E48222A00432783 /* Main.storyboard */; };
 		CEE1AC501E48222A00432783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE1AC4F1E48222A00432783 /* Assets.xcassets */; };
 		CEE1AC531E48222A00432783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE1AC511E48222A00432783 /* LaunchScreen.storyboard */; };
 		CEE1AC5E1E48222A00432783 /* XlogTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE1AC5D1E48222A00432783 /* XlogTestTests.m */; };
 		CEE1AC691E48222A00432783 /* XlogTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE1AC681E48222A00432783 /* XlogTestUITests.m */; };
+		CEE1AC781E48236300432783 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE1AC771E48236300432783 /* SystemConfiguration.framework */; };
+		CEE1AC7A1E48236C00432783 /* mars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE1AC791E48236C00432783 /* mars.framework */; };
+		CEE1AC7C1E48246600432783 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE1AC7B1E48246600432783 /* CoreTelephony.framework */; };
+		CEE1AC7E1E48247100432783 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE1AC7D1E48247100432783 /* libz.tbd */; };
+		CEE1AC801E48248000432783 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE1AC7F1E48248000432783 /* Foundation.framework */; };
+		CEE1AC831E48256E00432783 /* log_crypt.cc in Resources */ = {isa = PBXBuildFile; fileRef = CEE1AC811E48256E00432783 /* log_crypt.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +43,9 @@
 
 /* Begin PBXFileReference section */
 		CEE1AC401E48222A00432783 /* XlogTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XlogTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEE1AC441E48222A00432783 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEE1AC441E48222A00432783 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		CEE1AC461E48222A00432783 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CEE1AC471E48222A00432783 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEE1AC471E48222A00432783 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		CEE1AC491E48222A00432783 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CEE1AC4A1E48222A00432783 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CEE1AC4D1E48222A00432783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,13 @@
 		CEE1AC641E48222A00432783 /* XlogTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XlogTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE1AC681E48222A00432783 /* XlogTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XlogTestUITests.m; sourceTree = "<group>"; };
 		CEE1AC6A1E48222A00432783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE1AC771E48236300432783 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CEE1AC791E48236C00432783 /* mars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mars.framework; sourceTree = "<group>"; };
+		CEE1AC7B1E48246600432783 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		CEE1AC7D1E48247100432783 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		CEE1AC7F1E48248000432783 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEE1AC811E48256E00432783 /* log_crypt.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = log_crypt.cc; sourceTree = "<group>"; };
+		CEE1AC821E48256E00432783 /* log_crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log_crypt.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE1AC801E48248000432783 /* Foundation.framework in Frameworks */,
+				CEE1AC7E1E48247100432783 /* libz.tbd in Frameworks */,
+				CEE1AC7C1E48246600432783 /* CoreTelephony.framework in Frameworks */,
+				CEE1AC781E48236300432783 /* SystemConfiguration.framework in Frameworks */,
+				CEE1AC7A1E48236C00432783 /* mars.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +104,7 @@
 				CEE1AC5C1E48222A00432783 /* XlogTestTests */,
 				CEE1AC671E48222A00432783 /* XlogTestUITests */,
 				CEE1AC411E48222A00432783 /* Products */,
+				CEE1AC761E48236200432783 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,7 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				CEE1AC461E48222A00432783 /* AppDelegate.h */,
-				CEE1AC471E48222A00432783 /* AppDelegate.m */,
+				CEE1AC471E48222A00432783 /* AppDelegate.mm */,
 				CEE1AC491E48222A00432783 /* ViewController.h */,
 				CEE1AC4A1E48222A00432783 /* ViewController.m */,
 				CEE1AC4C1E48222A00432783 /* Main.storyboard */,
@@ -117,7 +137,9 @@
 		CEE1AC431E48222A00432783 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CEE1AC441E48222A00432783 /* main.m */,
+				CEE1AC441E48222A00432783 /* main.mm */,
+				CEE1AC811E48256E00432783 /* log_crypt.cc */,
+				CEE1AC821E48256E00432783 /* log_crypt.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +160,18 @@
 				CEE1AC6A1E48222A00432783 /* Info.plist */,
 			);
 			path = XlogTestUITests;
+			sourceTree = "<group>";
+		};
+		CEE1AC761E48236200432783 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEE1AC7F1E48248000432783 /* Foundation.framework */,
+				CEE1AC7D1E48247100432783 /* libz.tbd */,
+				CEE1AC7B1E48246600432783 /* CoreTelephony.framework */,
+				CEE1AC791E48236C00432783 /* mars.framework */,
+				CEE1AC771E48236300432783 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +286,7 @@
 				CEE1AC531E48222A00432783 /* LaunchScreen.storyboard in Resources */,
 				CEE1AC501E48222A00432783 /* Assets.xcassets in Resources */,
 				CEE1AC4E1E48222A00432783 /* Main.storyboard in Resources */,
+				CEE1AC831E48256E00432783 /* log_crypt.cc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +311,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8676961E4827CC004CD7C3 /* log_crypt.cc in Sources */,
 				CEE1AC4B1E48222A00432783 /* ViewController.m in Sources */,
-				CEE1AC481E48222A00432783 /* AppDelegate.m in Sources */,
-				CEE1AC451E48222A00432783 /* main.m in Sources */,
+				CEE1AC481E48222A00432783 /* AppDelegate.mm in Sources */,
+				CEE1AC451E48222A00432783 /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +464,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 78ZW4H56G7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = XlogTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dianping.XlogTest;
@@ -440,6 +480,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 78ZW4H56G7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = XlogTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dianping.XlogTest;
@@ -516,6 +560,7 @@
 				CEE1AC6F1E48222A00432783 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEE1AC701E48222A00432783 /* Build configuration list for PBXNativeTarget "XlogTestTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +569,7 @@
 				CEE1AC721E48222A00432783 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEE1AC731E48222A00432783 /* Build configuration list for PBXNativeTarget "XlogTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +578,7 @@
 				CEE1AC751E48222A00432783 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
